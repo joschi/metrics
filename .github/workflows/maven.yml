@@ -19,7 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK
-      uses: joschi/setup-jdk@rebase-setup-java
+      uses: joschi/setup-jdk@v2
       with:
         java-version: ${{ matrix.java_version }}
     - uses: actions/cache@v1
